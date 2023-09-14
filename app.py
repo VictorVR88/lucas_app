@@ -11,7 +11,7 @@ st.set_page_config(
 
 # DB Mgmt
 import sqlite3 
-conn = sqlite3.connect('data/admission.sqlite')
+conn = sqlite3.connect('admission.sqlite')
 c = conn.cursor()
 
 # Fxn Make Execution
